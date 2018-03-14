@@ -1,0 +1,25 @@
+{
+  "name": "ethers-airdrop",
+  "version": "0.0.1",
+  "description": "A simple example of how to use Merkle trees to Air Drop tokens.",
+  "main": "index.js",
+  "dependencies": {
+    "ethers": "^3.0.0",
+    "ethers-cli": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test-contract.js"
+  },
+  "keywords": [
+    "Ethereum",
+    "Air",
+    "Drop",
+    "merkle",
+    "trees"
+  ],
+  "author": "Richard Moore <me@ricmoo.com>",
+  "license": "MIT"
+}
